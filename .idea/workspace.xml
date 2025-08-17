@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="java lite airflow impl">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="add common pom.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/SagaOrchestrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/CreditCardPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/IPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PayPalPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/UpiPaymentProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,8 +69,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ScmApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/avinashkumar/Documents/avi-system-design-mono-repo",
     "node.js.detected.package.eslint": "true",
@@ -52,6 +87,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ScmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="scm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.scm.ScmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753325326807</updated>
       <workItem from="1753325327921" duration="230000" />
-      <workItem from="1755242835076" duration="5132000" />
+      <workItem from="1755242835076" duration="11449000" />
     </task>
     <task id="LOCAL-00001" summary="java lite airflow impl">
       <option name="closed" value="true" />
@@ -110,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755428873017</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add common pom.xml">
+      <option name="closed" value="true" />
+      <created>1755429737472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755429737472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +184,83 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java lite airflow impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="java lite airflow impl" />
+    <MESSAGE value="add common pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add common pom.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/OrderController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/OrderService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/SagaOrchestrator.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/InventoryService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/InventoryService.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/InventoryService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/InventoryController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/SagaOrchestrator.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/SagaOrchestrator.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/OrderService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

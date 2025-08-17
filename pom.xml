@@ -6,5 +6,6 @@
     <modules>
         <module>irctc</module>
         <module>java-airflow-lite</module>
+        <module>scm</module>
     </modules>
 </project>
