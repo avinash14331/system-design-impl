@@ -4,29 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="add common pom.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="scm">
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/repository/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/SagaOrchestrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/CreditCardPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/IPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PayPalPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scm/src/main/java/org/avi/scm/service/payment/UpiPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart-mcp-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/avi-system-design-mono-repo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-airflow-lite/src/main/java/org/avi/javaairflowlite/component/DagYamlLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-airflow-lite/src/main/java/org/avi/javaairflowlite/component/DagYamlLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,17 +34,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "avinash14331"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avinash14331&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/avinash14331/system-design-impl.git",
-    "accountId": "d8b58b0e-ef50-48f2-b86f-b4afdbf82046"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avinash14331/system-design-impl.git&quot;,
+    &quot;accountId&quot;: &quot;d8b58b0e-ef50-48f2-b86f-b4afdbf82046&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -68,6 +60,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.java-airflow-lite [clean].executor": "Run",
+    "Maven.java-airflow-lite [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -76,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ScmApplication.executor": "Debug",
+    "Spring Boot.ScmApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/avinashkumar/Documents/avi-system-design-mono-repo",
     "node.js.detected.package.eslint": "true",
@@ -84,14 +78,51 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScmApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="avi-system-design-mono-repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="avi-system-design-mono-repo" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaAirflowLiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="java-airflow-lite" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.javaairflowlite.JavaAirflowLiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="scm" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.scm.ScmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartMcpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping-cart-mcp-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.shoppingcartmcpserver.ShoppingCartMcpServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +144,8 @@
       <option name="presentableId" value="Default" />
       <updated>1753325326807</updated>
       <workItem from="1753325327921" duration="230000" />
-      <workItem from="1755242835076" duration="11449000" />
+      <workItem from="1755242835076" duration="14631000" />
+      <workItem from="1755528149939" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="java lite airflow impl">
       <option name="closed" value="true" />
@@ -163,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755429737472</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="scm">
+      <option name="closed" value="true" />
+      <created>1755453374681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755453374681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java lite airflow impl" />
     <MESSAGE value="add common pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add common pom.xml" />
+    <MESSAGE value="scm" />
+    <option name="LAST_COMMIT_MESSAGE" value="scm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
