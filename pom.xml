@@ -7,6 +7,6 @@
         <module>irctc</module>
         <module>java-airflow-lite</module>
         <module>scm</module>
-        <module></module>
+        <module>shopping-cart-mcp-server</module>
     </modules>
 </project>
