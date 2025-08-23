@@ -25,9 +25,9 @@ public class ShoppingCartMCPService {
     );
 
     //tools
-    @Tool(name = "AddProductToCart",
+    @Tool(name = "addProductToCart",
             description = "Adds a product to the shopping cart")
-    public String addProductToCart(@ToolParam String productName, @ToolParam int quantity) {
+    public String addProductToCart(@ToolParam(name = "productName", description = "Name of the product to add") String productName, @ToolParam(name = "quantity", description = "Quantity of the product to add") int quantity) {
         if(!PRODUCTS.containsKey(productName)) {
             return "Product not found";
         }
@@ -45,7 +45,7 @@ public class ShoppingCartMCPService {
 
     @Tool(name = "removeProductFromCart",
             description = "Removes a product from the shopping cart")
-    public String removeProductFromCart(@ToolParam String productName) {
+    public String removeProductFromCart(@ToolParam(name = "productName", description = "Name of the product to remove") String productName) {
         CartItem cartItem = cartItemRepository.findByProductId(productName);
         if (cartItem == null) {
             return "Product not found";
@@ -66,12 +66,7 @@ public class ShoppingCartMCPService {
 
     @Tool(name = "getCartTotal",
             description = "Returns the total price of the shopping cart")
-    public double getCartTotal(@ToolParam String productName) {
-        return productName == null ? getCartTotal() :
-                getCartByProduct(productName).contains("Price") ? 0 :
-                        Double.parseDouble(getCartByProduct(productName).split(":")[1]);
-    }
-    private double getCartTotal() {
+    public double getCartTotal() {
         return cartItemRepository.findAll().stream().mapToDouble(CartItem::getPrice).sum();
     }
 
@@ -81,3 +76,4 @@ public class ShoppingCartMCPService {
         return cartItemRepository.findAll();
     }
 }
+```
