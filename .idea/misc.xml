@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/scm/pom.xml" />
         <option value="$PROJECT_DIR$/java-airflow-lite/pom.xml" />
         <option value="$PROJECT_DIR$/shopping-cart-mcp-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tinyurl/pom.xml" />
       </list>
     </option>
   </component>

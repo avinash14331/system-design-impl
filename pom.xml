@@ -8,5 +8,6 @@
         <module>java-airflow-lite</module>
         <module>scm</module>
         <module>shopping-cart-mcp-server</module>
+        <module>tinyurl</module>
     </modules>
 </project>
