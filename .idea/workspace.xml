@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="mcp server module">
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/controller/UrlShortenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/entity/ShortUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/repository/UrlRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/UrlShortenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/JwtChannelInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/PresenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/entity/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/entity/UserPresence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/filter/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/repository/UserPresenceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/service/PresenceEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/util/Base64Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/UrlShortenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/UrlShortenerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +52,12 @@
     &quot;assignee&quot;: &quot;avinash14331&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:avinash14331/system-design-impl.git",
-    "accountId": "d8b58b0e-ef50-48f2-b86f-b4afdbf82046"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:avinash14331/system-design-impl.git&quot;,
+    &quot;accountId&quot;: &quot;d8b58b0e-ef50-48f2-b86f-b4afdbf82046&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -64,30 +77,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.java-airflow-lite [clean].executor": "Run",
-    "Maven.java-airflow-lite [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ScmApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/avinashkumar/Documents/system-design-impl",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.java-airflow-lite [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-airflow-lite [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ScmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/avinashkumar/Documents/system-design-impl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -114,6 +127,14 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="java-airflow-lite" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.javaairflowlite.JavaAirflowLiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineOfflineuserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="online-offlineuser" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.avi.onlineofflineuser.OnlineOfflineuserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +181,9 @@
       <workItem from="1753325327921" duration="230000" />
       <workItem from="1755242835076" duration="14631000" />
       <workItem from="1755528149939" duration="7202000" />
-      <workItem from="1756804429617" duration="1617000" />
+      <workItem from="1756804429617" duration="2081000" />
+      <workItem from="1757313670104" duration="3979000" />
+      <workItem from="1757415649743" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="java lite airflow impl">
       <option name="closed" value="true" />

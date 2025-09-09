@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for tinyurl" enabled="true">
+      <profile name="Annotation profile for online-offlineuser" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -13,6 +13,7 @@
         <module name="tinyurl" />
         <module name="shopping-cart-mcp-server" />
         <module name="java-airflow-lite" />
+        <module name="online-offlineuser" />
         <module name="scm" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java-airflow-lite" options="-parameters" />
+      <module name="online-offlineuser" options="-parameters" />
       <module name="scm" options="-parameters" />
       <module name="shopping-cart-mcp-server" options="-parameters" />
       <module name="tinyurl" options="-parameters" />

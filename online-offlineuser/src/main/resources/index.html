@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client/dist/sockjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/stompjs/lib/stomp.min.js"></script>
+<script>
+    let socket = new SockJS("/ws");
+    let stompClient = Stomp.over(socket);
+
+    stompClient.connect({"username": "Avinash"}, () => {
+        console.log("Connected");
+
+        stompClient.subscribe("/topic/online", (msg) => {
+            console.log("Online Users: ", JSON.parse(msg.body));
+        });
+
+        stompClient.subscribe("/topic/messages", (msg) => {
+            console.log("Message: ", msg.body);
+        });
+
+        stompClient.send("/app/chat", {}, "Hello everyone!");
+    });
+</script>
+<script>
+    let socket = new SockJS("/ws");
+    let stompClient = Stomp.over(socket);
+
+    // send JWT in connect headers
+    stompClient.connect(
+        { "Authorization": "Bearer " + localStorage.getItem("jwtToken") },
+        () => {
+            console.log("Connected with JWT");
+
+            stompClient.subscribe("/topic/online", (msg) => {
+                console.log("Online Users: ", JSON.parse(msg.body));
+            });
+
+            stompClient.send("/app/chat", {}, "Hello from JWT-auth user!");
+        }
+    );
+
+</script>
+<script>
+    let socket = new SockJS("/ws");
+    let stompClient = Stomp.over(socket);
+
+    let token = "eyJhbGciOiJIUzI1NiJ9..."; // from /login
+
+    stompClient.connect(
+        { "Authorization": "Bearer " + token },
+        () => {
+            console.log("Connected with JWT!");
+
+            stompClient.subscribe("/topic/online", (msg) => {
+                console.log("Online users:", JSON.parse(msg.body));
+            });
+
+            stompClient.send("/app/chat", {}, "Hello secure world!");
+        }
+    );
+
+</script>
