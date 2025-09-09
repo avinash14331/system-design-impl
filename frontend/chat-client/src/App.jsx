@@ -35,7 +35,7 @@
 // export default App
 
 import { useEffect, useState } from "react";
-import { connectWebSocket, sendMessage } from "./ws";
+import { connectWebSocket, sendMessage } from "./ws.js";
 
 function App() {
     const [token, setToken] = useState("");

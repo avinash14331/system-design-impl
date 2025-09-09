@@ -9,10 +9,10 @@
 //   </StrictMode>,
 // )
 
-import "./polyfills";  // must come before any SockJS usage
+import "./polyfills.js";  // must come before any SockJS usage
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./App.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>

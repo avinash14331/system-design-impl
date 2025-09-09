@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="mcp server module">
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/JwtChannelInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/controller/PresenceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/entity/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/entity/UserPresence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/filter/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/repository/UserPresenceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/service/PresenceEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/java/org/avi/onlineofflineuser/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-offlineuser/src/main/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/util/Base64Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/UrlShortenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tinyurl/src/main/java/org/avi/tinyurl/service/UrlShortenerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +162,7 @@
       <workItem from="1755528149939" duration="7202000" />
       <workItem from="1756804429617" duration="2081000" />
       <workItem from="1757313670104" duration="3979000" />
-      <workItem from="1757415649743" duration="1101000" />
+      <workItem from="1757415649743" duration="1731000" />
     </task>
     <task id="LOCAL-00001" summary="java lite airflow impl">
       <option name="closed" value="true" />
@@ -257,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755976599788</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mcp server module">
+      <option name="closed" value="true" />
+      <created>1757423904360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757423904360</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
