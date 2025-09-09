@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="mcp server module">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a8175654-604f-41a0-bbce-f58cf199229c" name="Changes" comment="separate front end">
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/src/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/src/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/src/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/src/ws.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat-client/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat-client/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +85,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/chat-client" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -163,6 +173,7 @@
       <workItem from="1756804429617" duration="2081000" />
       <workItem from="1757313670104" duration="3979000" />
       <workItem from="1757415649743" duration="1731000" />
+      <workItem from="1757424795438" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="java lite airflow impl">
       <option name="closed" value="true" />
@@ -244,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757423904360</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="separate front end">
+      <option name="closed" value="true" />
+      <created>1757425013359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757425013359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +287,8 @@
     <MESSAGE value="add common pom.xml" />
     <MESSAGE value="scm" />
     <MESSAGE value="mcp server module" />
-    <option name="LAST_COMMIT_MESSAGE" value="mcp server module" />
+    <MESSAGE value="separate front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="separate front end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
