@@ -9,5 +9,6 @@
         <module>scm</module>
         <module>shopping-cart-mcp-server</module>
         <module>tinyurl</module>
+        <module>online-offlineuser</module>
     </modules>
 </project>
