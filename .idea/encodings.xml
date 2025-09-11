@@ -6,5 +6,6 @@
     <file url="file://$PROJECT_DIR$/scm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-cart-mcp-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinyurl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocket-impl-spring/src/main/java" charset="UTF-8" />
   </component>
 </project>

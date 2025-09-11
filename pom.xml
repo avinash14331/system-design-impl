@@ -10,5 +10,6 @@
         <module>shopping-cart-mcp-server</module>
         <module>tinyurl</module>
         <module>online-offlineuser</module>
+        <module>websocket-impl-spring</module>
     </modules>
 </project>
